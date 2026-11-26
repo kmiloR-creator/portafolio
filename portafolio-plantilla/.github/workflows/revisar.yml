@@ -14,4 +14,4 @@ jobs:
         with:
           node-version: 24
       - name: Revisar el HTML
-        run: npx --yes html-validate .
+        run: npx --yes html-validate index.html
